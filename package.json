@@ -1,0 +1,13 @@
+{
+	"version": "1.1.0",
+	"name": "load-grunt-configuration",
+	"description": "Load configuration files",
+	"author": "La Haute Société (http://www.lahautesociete.com)",
+	"repository": "la-haute-societe/load-grunt-configuration",
+	"license": "MIT",
+	"main": "tasks/load-grunt-configuration.js",
+	"dependencies": {
+		"extend": "^3.0.0",
+		"load-grunt-tasks": "^3.5.2"
+	}
+}
