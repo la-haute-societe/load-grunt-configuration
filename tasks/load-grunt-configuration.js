@@ -13,7 +13,7 @@ module.exports = function (grunt, projectOptions) {
         files: [],
 
         // Folder containing grunt configuration files
-        gruntConfigFolder: process.cwd() + '/grunt-config',
+        gruntConfigFolder: 'grunt-config',
 
     }, projectOptions);
 
@@ -30,7 +30,7 @@ module.exports = function (grunt, projectOptions) {
     grunt.log.subhead('Load configuration files : ');
     options.files.forEach(file => {
         // Read configuration file
-        let currentConfiguration = require(options.gruntConfigFolder + '/' + file + '.js')(grunt);
+        let currentConfiguration = require(process.cwd() + '/' + options.gruntConfigFolder + '/' + file + '.js')(grunt);
         currentConfiguration     = currentConfiguration || {};
 
         // Inject into grunt configuration

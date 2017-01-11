@@ -118,5 +118,11 @@ Read ``src`` value :
 ```
 
 
+## Development
 
+### Tests
 
+Run tests
+```
+grunt test
+```
