@@ -91,7 +91,6 @@ Example:
 ]
 ```
 
-
 #### gruntConfigFolder
 Folder containing grunt configuration `files` to load.
 
