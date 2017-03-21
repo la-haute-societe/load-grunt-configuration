@@ -18,6 +18,7 @@ module.exports = function (grunt, projectOptions) {
         // Path to package.json
         packageJsonPath: 'package.json'
 
+
     }, projectOptions);
 
 
