@@ -97,6 +97,12 @@ Folder containing grunt configuration `files` to load.
 Default : 'grunt-config'
 
 
+#### packageJsonPath
+Path to `package.json` file.
+
+Default : 'package.json'
+
+
 ### Project configuration
 ```options``` object is merged into grunt.config.
 

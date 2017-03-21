@@ -15,13 +15,15 @@ module.exports = function (grunt, projectOptions) {
         // Folder containing grunt configuration files
         gruntConfigFolder: 'grunt-config',
 
-    }, projectOptions);
+        // Path to package.json
+        packageJsonPath: 'package.json'
 
+    }, projectOptions);
 
 
     // Init grunt configuration
     grunt.config.merge({
-        pkg:    grunt.file.readJSON('package.json'),
+        pkg: grunt.file.readJSON(options.packageJsonPath),
     });
 
     grunt.config.merge(options);
