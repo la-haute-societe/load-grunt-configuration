@@ -102,7 +102,6 @@ Path to `package.json` file.
 
 Default : 'package.json'
 
-
 ### Project configuration
 ```options``` object is merged into grunt.config.
 
