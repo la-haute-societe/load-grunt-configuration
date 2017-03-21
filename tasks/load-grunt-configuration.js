@@ -3,9 +3,6 @@ module.exports = function (grunt, projectOptions) {
 
     const extend = require('extend');
 
-    require('load-grunt-tasks')(grunt);
-
-
     // Merge default options and project options
     const options = extend({
         // Configuration files to load
@@ -18,8 +15,13 @@ module.exports = function (grunt, projectOptions) {
         // Path to package.json
         packageJsonPath: 'package.json'
 
-
     }, projectOptions);
+
+
+    require('load-grunt-tasks')(grunt, {
+        config: options.packageJsonPath,
+        requireResolution: true
+    });
 
 
     // Init grunt configuration
