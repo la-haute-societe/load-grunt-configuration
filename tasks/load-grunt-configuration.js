@@ -18,7 +18,7 @@ module.exports = function (grunt, projectOptions) {
     }, projectOptions);
 
 
-    require('load-grunt-tasks')(grunt, {
+    require('@lahautesociete/load-grunt-tasks')(grunt, {
         config: options.packageJsonPath,
         requireResolution: true
     });

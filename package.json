@@ -1,5 +1,5 @@
 {
-	"version": "1.3.0",
+	"version": "1.3.1",
 	"name": "load-grunt-configuration",
 	"description": "Load configuration files",
 	"author": "La Haute Société (http://www.lahautesociete.com)",
@@ -8,7 +8,7 @@
 	"main": "tasks/load-grunt-configuration.js",
 	"dependencies": {
 		"extend": "^3.0.0",
-		"load-grunt-tasks": "^3.5.2"
+		"@lahautesociete/load-grunt-tasks": "^3.5.3"
 	},
 	"devDependencies": {
 		"grunt": "^1.0.1",
